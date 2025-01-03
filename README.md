@@ -25,6 +25,35 @@ Here is the layout of the News Article Scraper:
      - Fonts and layout components are styled for user-friendliness and readability.
      - A compact, user-centered design ensures seamless interaction.
 
+
+# How to Import and Use the Python Module
+If you plan to integrate the scraper into other Python projects or scripts, here's how to do it:
+
+  1. Save the Script as a Module:
+       - Save the script in a .py file, such as article_scraper.py.
+  
+  2. Import the Module:
+      -  In your Python script, import the module:
+           [ from article_scraper import scrape_article, format_output, save_article ]
+  3. Use the Functions Programmatically:
+      - Fetch and process an article:
+           [ url = "https://example.com/article-url"
+            title, content = scrape_article(url)
+            if title and content:
+                formatted_output = format_output(title, content)
+                print(formatted_output)  # Print or handle the formatted article content ]
+      - Save the article to a file:
+            [ save_article(title, content) ]
+  
+  4. Run the App's GUI:
+      - If you want to use the GUI, run the script directly:
+           [ python article_scraper.py ]
+  
+  5. Install Required Libraries:
+      - Install dependencies before running the script:
+            [ pip install requests beautifulsoup4 ]
+
+
 # How to Use:
   1. Enter a valid article URL in the text field.
   2. Click the "Scrape Article" button to fetch and display the article's title and content.

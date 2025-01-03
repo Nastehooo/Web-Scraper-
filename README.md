@@ -2,7 +2,6 @@
 Here is the layout of the News Article Scraper:
 <img width="1292" alt="Screenshot 2025-01-03 at 14 46 28" src="https://github.com/user-attachments/assets/49e9df27-88f8-45fa-88c9-886bf0276b4a" />
 
-
 # Key Features:
   1. Scrape and Display News Articles:
       - Users input an article URL, and the app retrieves the article's title and content using the requests library and BeautifulSoup for HTML parsing.

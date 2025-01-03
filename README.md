@@ -1,4 +1,5 @@
 # News Article Scraper Application
+Here is the layout of the News Article Scraper:
 <img width="1292" alt="Screenshot 2025-01-03 at 14 46 28" src="https://github.com/user-attachments/assets/49e9df27-88f8-45fa-88c9-886bf0276b4a" />
 
 
